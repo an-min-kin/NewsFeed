@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spravochnic</string>
+    <string name="about">О нас</string>
+    <string name="blog">Блог</string>
+    <string name="cont">Контакты</string>
+    <string name="news">Новости</string>
+
+</resources>
