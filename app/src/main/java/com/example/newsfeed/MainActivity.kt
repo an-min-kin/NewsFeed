@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val lvContent = findViewById<RecyclerView>(R.id.lvContent)
         val list = ArrayList<ListItem>()
+        val list1 = ArrayList<ListItem>()
         if (!bol) {
             val intent = Intent(this, Login::class.java).apply {}
             startActivity(intent)
@@ -42,30 +43,11 @@ class MainActivity : AppCompatActivity() {
                 ListItem(
                     R.drawable.ponchic,
                     "What Is House Dance?",
-                    "kjbnsrb kjnsbksrngb dkjbfvfjbvj"
+                    "House Dance is a style of dance that originated in the late 70’s and early 80’s from underground clubs in Chicago and New York.\n"
+
                 )
             )
-            list.add(
-                ListItem(
-                    R.drawable.ponchic,
-                    "Новая диета для подготовки к лету",
-                    "kjbnsrb kjnsbksrngb dkjbfvfjbvj"
-                )
-            )
-            list.add(
-                ListItem(
-                    R.drawable.ponchic,
-                    "Новая диета для подготовки к лету",
-                    "kjbnsrb kjnsbksrngb dkjbfvfjbvj"
-                )
-            )
-            list.add(
-                ListItem(
-                    R.drawable.ponchic,
-                    "Новая диета для подготовки к лету",
-                    "kjbnsrb kjnsbksrngb dkjbfvfjbvj"
-                )
-            )
+
             lvContent.hasFixedSize()
             lvContent.layoutManager = LinearLayoutManager(this)
             lvContent.adapter = Adapter(list, this)
