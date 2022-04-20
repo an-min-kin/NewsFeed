@@ -19,10 +19,13 @@ class Login : AppCompatActivity() {
         pref = getSharedPreferences("TABLE", Context.MODE_PRIVATE) // создаем таблицу
         login = pref?.getString("login","")!!//записываем значения по ключевым словам
         pass = pref?.getString("pass","")!! // если ничего нет, то будет пуста строка ""
-        //Toast.makeText(this, login, Toast.LENGTH_SHORT).show()
+        if (login!=="" || pass!==""){
+            bol = true
+            val intent = Intent(this, MainActivity::class.java).apply {}
+            startActivity(intent) }
     }
         fun onClickExit(view: View) {
-            bol = true // переменная показывает, что регистрируемся первый раз
+            bol = true
             var tvLogin = findViewById<TextView>(R.id.tvLogin).text.toString()
             var tvPass = findViewById<TextView>(R.id.tvPass).text.toString()
             if ( tvLogin.isNotEmpty() && tvPass.isNotEmpty()) { // если юзер заполнил поля, то сохраняем

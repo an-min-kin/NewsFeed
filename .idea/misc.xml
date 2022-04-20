@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/drawable-anydpi/ic_news.xml" value="0.109" />
+        <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/drawable/round_button.xml" value="0.109" />
+        <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/drawable/round_corner.xml" value="0.109" />
         <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/drawable/rounde.xml" value="0.1" />
-        <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/content.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/content_layout.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/content_layout.xml" value="0.22" />
         <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/hider_layout.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/item_layout.xml" value="0.22" />
         <entry key="..\:/Users/dns/AndroidStudioProjects/NewsFeed/app/src/main/res/layout/login.xml" value="0.16666666666666666" />
