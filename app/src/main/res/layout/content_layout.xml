@@ -7,32 +7,31 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:background="@color/pur"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
 
             <ImageView
                 android:id="@+id/im_cl"
-                android:layout_width="414dp"
-                android:layout_height="294dp"
-                android:layout_marginTop="-14dp"
+                android:layout_width="480dp"
+                android:layout_height="310dp"
+                android:layout_gravity="center_horizontal"
                 app:srcCompat="@drawable/ponchic" />
 
             <TextView
                 android:id="@+id/tvTitle_cl"
-                android:layout_width="362dp"
-                android:layout_height="80dp"
-                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
-                android:text="Новая диета для &quot;подготовки&quot; к лету"
+                android:text="Новая диета"
+                android:textColor="@color/white"
                 android:textIsSelectable="false"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -42,9 +41,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="30dp"
-                android:layout_marginBottom="192dp"
-                android:text="описание" />
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:text="описание"
+                android:textColor="@color/white" />
         </LinearLayout>
     </ScrollView>
 
